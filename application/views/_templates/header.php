@@ -23,9 +23,9 @@
           <li class="divider"></li>
           <li><a href="<?php echo URL; ?>">Home</a></li>
           <li class="divider"></li>
-          <li><a href="<?php echo URL; ?>home/kitchensink">Kitchen Sink</a></li>
+          <li><a href="<?php echo URL; ?>ui/kitchensink">Kitchen Sink</a></li>
           <li class="divider"></li>
-          <li><a href="<?php echo URL; ?>home/exampletwo">Two</a></li>
+          <li><a href="<?php echo URL; ?>ui/visibility">Visibility</a></li>
           <li class="divider"></li>
           <li><a href="<?php echo URL; ?>songs">Songs</a></li>
           <li class="divider"></li>
