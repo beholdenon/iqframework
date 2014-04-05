@@ -67,7 +67,7 @@ class UI extends Controller {
   */
   public function gallery() {
     $title = "Gallery";
-    $desc = "Create powerful multi-device layouts quickly and easily with the default 12-column, nest-able Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly.";
+    $desc = "This JavaScript plugin makes it easy to create responsive lightboxes with any size image.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
     require 'application/views/ui/gallery.php';
@@ -88,4 +88,19 @@ class UI extends Controller {
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
+  /**
+  * PAGE: javascript
+  */
+  public function javascript() {
+    $title = "JavaScript";
+    $desc = "We streamlined how you implement IQ plugins by combining them into a single plugin.";
+    require 'application/views/_templates/header.php';
+    require 'application/views/_templates/feature-title.php';
+    require 'application/views/ui/javascript.php';
+    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/scripts.php';
+    require 'application/views/_templates/bottom.php';
+  }
+  
+  
 }
