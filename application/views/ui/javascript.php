@@ -1,10 +1,6 @@
 <div class="row">
 <div class="columns">
 
-              <h1>JavaScript Setup</h1>
-              <h3 class="subheader">We streamlined how you implement IQ plugins by combining them into a single plugin under the <code>$.iq.think()</code> jQuery namespace.</h3>
-
-<hr>
 <h3 id="installation">Installation</h3>
 <p>IQ Javascript was designed to work with <a href="http://jquery.com/" title="jQuery Docs">jQuery</a> right out of the gate. In the <code>&lt;head&gt;</code> section of your page add Modernizr. Modernizr acts as a shim for HTML5 elements that older browsers may not recognize, and provides detection for mobile devices.</p>
 <pre><code class="language-html"><div class="code-container"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"/js/vendor/modernizr.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></div></code></pre>

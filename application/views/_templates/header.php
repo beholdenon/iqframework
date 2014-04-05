@@ -6,6 +6,8 @@
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="<?php echo URL; ?>/public/css/app.css" />
     <script src="<?php echo URL; ?>/public/js/modernizr.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/xmo3mgn.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
   <div class="fixed contain-to-grid">
@@ -26,7 +28,8 @@
           <li class="has-dropdown">
             <a href="#">UI</a>
             <ul class="dropdown">
-              <li><a href="<?php echo URL; ?>ui/kitchensink">Kitchen Sink</a></li>
+              <li><a href="<?php echo URL; ?>ui/KitchenSink">Kitchen Sink</a></li>
+              <li><a href="<?php echo URL; ?>ui/JavaScript">JavaScript</a></li>
               <li><a href="<?php echo URL; ?>ui/visibility">Visibility</a></li>
               <li><a href="<?php echo URL; ?>ui/grid">Grid</a></li>
               <li><a href="<?php echo URL; ?>ui/slideshow">Slideshow</a></li>

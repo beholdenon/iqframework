@@ -16,8 +16,9 @@ class UI extends Controller {
     $title = "IQ Framework - UI Documentation";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/index.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
@@ -30,8 +31,9 @@ class UI extends Controller {
     $desc = "This page includes every single Foundation element so that we can make sure things work together smoothly.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/kitchenSink.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
@@ -44,8 +46,9 @@ class UI extends Controller {
     $desc = "Visibility classes let you show or hide elements based on screen size or device orientation. You can use visibility classes to control which elements users see depending on their browsing environment.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/visibility.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }  
@@ -57,8 +60,9 @@ class UI extends Controller {
     $desc = "Create powerful multi-device layouts quickly and easily with the default 12-column, nest-able Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/grid.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
@@ -70,8 +74,9 @@ class UI extends Controller {
     $desc = "This JavaScript plugin makes it easy to create responsive lightboxes with any size image.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/gallery.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
@@ -83,8 +88,9 @@ class UI extends Controller {
     $desc = "Integrate an easy, powerful, responsive image slider that allows users to swipe on touch-enabled devices.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/slideshow.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
@@ -93,11 +99,12 @@ class UI extends Controller {
   */
   public function javascript() {
     $title = "JavaScript";
-    $desc = "We streamlined how you implement IQ plugins by combining them into a single plugin.";
+    $desc = "We streamlined how you implement IQ plugins by combining them into a single plugin under the $.iq.think() jQuery namespace.";
     require 'application/views/_templates/header.php';
     require 'application/views/_templates/feature-title.php';
+    require 'application/views/_templates/uiNav.php';
     require 'application/views/ui/javascript.php';
-    require 'application/views/_templates/footer.php';
+    require 'application/views/_templates/uiFooter.php';
     require 'application/views/_templates/scripts.php';
     require 'application/views/_templates/bottom.php';
   }
