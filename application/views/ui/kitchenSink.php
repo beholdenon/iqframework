@@ -1,8 +1,5 @@
 <div class="row">
   <div class="columns">
-    <h1 id="kitchen-sink">Kitchen sink</h1>
-    <h3 class="subheader">This page includes every single Foundation element so that we can make sure things work together smoothly.</h3>
-
     <h4 id="alert-boxes">Alert Boxes</h4>
     <div data-alert="" class="alert-box radius">
       This is a standard alert (div.alert-box).
