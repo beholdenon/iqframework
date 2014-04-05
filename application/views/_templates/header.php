@@ -23,7 +23,7 @@
           <li class="divider"></li>
           <li><a href="<?php echo URL; ?>">Home</a></li>
           <li class="divider"></li>
-          <li><a href="<?php echo URL; ?>home/exampleone">One</a></li>
+          <li><a href="<?php echo URL; ?>home/kitchensink">Kitchen Sink</a></li>
           <li class="divider"></li>
           <li><a href="<?php echo URL; ?>home/exampletwo">Two</a></li>
           <li class="divider"></li>

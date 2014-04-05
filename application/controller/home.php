@@ -31,15 +31,15 @@ class Home extends Controller
      * This method handles what happens when you move to http://yourproject/home/exampleone
      * The camelCase writing is just for better readability. The method name is case insensitive.
      */
-    public function exampleOne()
+    public function kitchenSink()
     {
-        $title = "PHP MVC - Example Number One";
+        $title = "PHP MVC - Kitchen Sink";
         // debug message to show where you are, just for the demo
         //echo 'Message from Controller: You are in the controller home, using the method exampleOne()';
         // load views. within the views we can echo out $songs and $amount_of_songs easily
         require 'application/views/_templates/header.php';
         require 'application/views/_templates/feature-title.php';
-        require 'application/views/home/example_one.php';
+        require 'application/views/home/kitchen-sink.php';
         require 'application/views/_templates/footer.php';
         require 'application/views/_templates/scripts.php';
         require 'application/views/_templates/bottom.php';
