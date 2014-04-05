@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -698,3 +699,9 @@
   </body>
 </html>
 
+=======
+iqframework
+===========
+
+IQ Framework Docs
+>>>>>>> 4153a369936184849b9a4e964f1ce151936545f2
